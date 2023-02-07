@@ -16,14 +16,14 @@ void setup(){
   size(800,600);
   
   //music = new SoundFile(this, "assests/bitQuest.mp3");
-  walk = new SoundFile(this, "assests/walk.wav");
+  //walk = new SoundFile(this, "assests/walk.wav");
   //music.loop();
   
 }
 
 void draw(){
-  background(128);
-  fill(255);
+  background(#0000FF);
+  fill(#FF0000);
   textSize(72); 
   text("Click Me", 255, 220);
   fill(255,0,0);
